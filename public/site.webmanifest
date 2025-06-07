@@ -1,6 +1,10 @@
 {
   "name": "QuizzyVerse – The Ultimate Quiz Universe",
   "short_name": "QuizzyVerse",
+  "description": "Test your knowledge across topics and earn badges in QuizzyVerse – the interactive quiz universe.",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
