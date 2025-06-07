@@ -13,8 +13,12 @@ function App() {
           The ultimate quiz universe — test your knowledge, earn badges, and
           have fun!
         </p>
-        <button className="mt-6 inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105">
-          Get Started
+        <button
+          type="button"
+          aria-label="Start Quiz"
+          className="mt-6 inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-2xl shadow-lg transition-transform duration-300 hover:scale-105"
+        >
+          Start Quiz
         </button>
       </div>
     </main>
