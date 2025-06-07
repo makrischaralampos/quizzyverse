@@ -14,7 +14,16 @@ export function HeroSection() {
         The ultimate quiz universe — test your knowledge, earn badges, and have
         fun!
       </p>
-      <PrimaryButton ariaLabel="Start Quiz">Start Quiz</PrimaryButton>
+      <PrimaryButton
+        ariaLabel="Start the quiz now"
+        variant="primary"
+        size="md"
+        onClick={() => {
+          console.log("Start Quiz Clicked");
+        }}
+      >
+        Start Quiz
+      </PrimaryButton>
     </section>
   );
 }
