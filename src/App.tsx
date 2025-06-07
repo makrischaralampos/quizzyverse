@@ -1,27 +1,14 @@
-import { useState } from "react";
-
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank"></a>
-        <a href="https://react.dev" target="_blank"></a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+    <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-200 dark:from-gray-900 dark:to-gray-950 text-gray-900 dark:text-white px-4">
+      <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
+        Welcome to QuizzyVerse 🌌
+      </h1>
+      <p className="text-lg text-gray-600 dark:text-gray-300 text-center max-w-xl">
+        The ultimate quiz universe — test your knowledge, earn badges, and have
+        fun!
       </p>
-    </>
+    </main>
   );
 }
 
