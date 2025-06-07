@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "QuizzyVerse – The Ultimate Quiz Universe",
+  "short_name": "QuizzyVerse",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
