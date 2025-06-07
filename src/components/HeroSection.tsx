@@ -8,7 +8,7 @@ export function HeroSection() {
         <span className="text-indigo-600 dark:text-indigo-400">
           QuizzyVerse
         </span>{" "}
-        🌌
+        <span aria-hidden="true">🌌</span>
       </h1>
       <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
         The ultimate quiz universe — test your knowledge, earn badges, and have
