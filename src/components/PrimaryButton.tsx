@@ -1,9 +1,9 @@
 import type React from "react";
 
 type PrimaryButtonProps = {
-  children: React.ReactNode;
-  ariaLabel: string;
-  onClick?: () => void;
+  readonly children: React.ReactNode;
+  readonly ariaLabel: string;
+  readonly onClick?: () => void;
 };
 
 export function PrimaryButton({
