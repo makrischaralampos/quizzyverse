@@ -1,3 +1,5 @@
+// Root tsconfig.json — serves as the project reference entry point
+
 {
   "files": [],
   "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }]
