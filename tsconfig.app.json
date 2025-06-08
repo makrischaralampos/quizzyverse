@@ -1,3 +1,5 @@
+// tsconfig.app.json – used for building the React application (QuizzyVerse)
+
 {
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
