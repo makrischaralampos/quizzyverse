@@ -3,6 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "description": "QuizzyVerse – The Ultimate Quiz Universe. Test your knowledge, earn badges, and have fun!",
+  "author": "Charalampos Makris",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
