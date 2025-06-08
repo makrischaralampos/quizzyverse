@@ -2,6 +2,7 @@
   "name": "quizzyverse",
   "private": true,
   "version": "1.0.0",
+  "description": "QuizzyVerse – The Ultimate Quiz Universe. Test your knowledge, earn badges, and have fun!",
   "type": "module",
   "scripts": {
     "dev": "vite",
