@@ -1,54 +1,105 @@
-# React + TypeScript + Vite
+# 🎯 QuizzyVerse – The Ultimate Quiz Universe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Test your knowledge across a variety of topics – tech, pop, culture, logic puzzles, and more! Earn badges, compete with friends, and enjoy delightful animations and sound effects in a beautiful PWA experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧠 **Category-based quizzes**
+- 🏆 **Score tracking & badge system**
+- 🎨 **Dark/light mode toggle**
+- 🎧 **Sound effects powered by Howler.js**
+- 💾 **Offline support** via localStorage
+- 🧪 **Validated forms** with React Hook Form + Zod
+- ⚛️ **Modern stack**: React + Vite + TypeScript + Tailwind CSS
+- 📱 **PWA-ready** with manifest & service worker
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
+## 🛠️ Tech Stack
+
+| Tech                  | Purpose                    |
+| --------------------- | -------------------------- |
+| React + Vite          | Core UI and fast dev build |
+| TypeScript            | Static typing              |
+| Tailwind CSS          | Utility-first styling      |
+| Zustand               | Global state management    |
+| React Hook Form + Zod | Form handling & validation |
+| Framer Motion         | Animations                 |
+| Howler.js             | Sound effects              |
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/makrischaralampos/quizzyverse
+cd quizzyverse
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
+```bash
+npm install
 ```
+
+### 3. Start development server
+
+```bash
+npm run dev
+```
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+### 5. Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📁 Project Structure (Partial)
+
+```pgsql
+quizzyverse/
+├── public/
+├── src/
+|   ├── components/
+|   ├── pages/
+|   ├── hooks/
+|   ├── stores/
+|   ├── assets/
+├── index.html
+├── vite.config.ts
+├── tsconfig.json
+└── package.json
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🙋‍♂️ Author
+
+**Charalampos Makris**
+[GitHub](https://github.com/makrischaralampos) ・ [LinkedIn](https://www.linkedin.com/in/charalampos-makris-371566269/)
+
+---
+
+## 🌐 Live Demo
+
+Coming soon: https://quizzyverse.example.com
+
+---
