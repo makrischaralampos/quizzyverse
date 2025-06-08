@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 body {
   @apply m-0 font-sans antialiased transition-colors duration-500;
